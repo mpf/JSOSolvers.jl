@@ -139,7 +139,7 @@ function normM!(x, M, z)
     return norm(x)
   else
     mul!(z, M, x)
-    return √(x⋅z)
+    return √(x ⋅ z)
   end
 end
 
